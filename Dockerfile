@@ -1,12 +1,18 @@
 FROM alpine:edge
-MAINTAINER Josh Sandlin <josh@thenullbyte.org>
+MAINTAINER Hector Valdivia <hect.valdivia@gmail.com>
 
 RUN apk --update add \
   nginx \
+  git \
   php-fpm \
+  php5-cli \
+  php-dev \
+  php-phalcon \
   php-pdo \
   php-json \
   php-openssl \
+  php-pear \
+  php-mssql \
   php-mysql \
   php-pdo_mysql \
   php-mcrypt \
