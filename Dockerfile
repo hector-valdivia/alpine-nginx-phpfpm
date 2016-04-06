@@ -5,7 +5,7 @@ RUN apk --update add \
   nginx \
   git \
   php-fpm \
-  php5-cli \
+  php-cli \
   php-dev \
   php-phalcon \
   php-pdo \
